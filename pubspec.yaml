@@ -1,0 +1,18 @@
+name: aws_sesv2_api
+description: AWS API client for Amazon Simple Email Service (generated from SDK API specification).
+version: 2.0.0
+homepage: https://github.com/agilord/aws_client/tree/master/generated/aws_sesv2_api
+
+
+protocol: rest-json
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  shared_aws_api:
+    git:
+      url: https://github.com/cuongtm130996/shared_aws_api
+      ref: master
+
+
